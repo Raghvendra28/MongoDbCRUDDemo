@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="MongoDB.Driver" Version="2.12.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MongoDbCRUD.Common\MongoDbCRUD.Common.csproj" />
+    <ProjectReference Include="..\MongoDbCRUD.DataAccess\MongoDbCRUD.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
